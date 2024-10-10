@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Redirect Addon",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+
